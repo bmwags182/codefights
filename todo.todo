@@ -9,3 +9,7 @@ Late ride:
 
 Reach next level:
   ☐ if false, find out how many more of the same enemy would need to be killed
+
+Extr number:
+  ✔ make test fail if all numbers are the same @done (17-01-22 00:44)
+  ✔ make test fail if none of the numbers are the same @done (17-01-22 00:44)
