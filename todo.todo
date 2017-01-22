@@ -1,3 +1,5 @@
 Add two digits:
   ☐ increase functionality to take **any** int and output the sum of the digits
 
+Theater seats:
+  ☐ start caring about people in my row
