@@ -1,15 +1,19 @@
+ULTIMATE GOAL:
+  ☐ @high create a demo site which uses each of these functions in some manner
+  ☐ @high remove all camelCase in favor of underscores
+
 Add two digits:
-  ☐ increase functionality to take **any** int and output the sum of the digits
+  ✔ increase functionality to take **any** int and output the sum of the digits @done (17-01-22 05:24) numbers less than 1Bil
 
 Theater seats:
-  ☐ start caring about people in my row
+  ✔ start caring about people in my row @done (17-01-22 05:26)
 
 Late ride:
-  ☐ fix the time display in the echo statement
+  ✔ fix the time display in the echo statement @done (17-01-22 05:32)
 
 Reach next level:
-  ☐ if false, find out how many more of the same enemy would need to be killed
+  ✔ if false, find out how many more of the same enemy would need to be killed @done (17-01-22 05:36)
 
-Extr number:
+Extra number:
   ✔ make test fail if all numbers are the same @done (17-01-22 00:44)
   ✔ make test fail if none of the numbers are the same @done (17-01-22 00:44)

@@ -15,6 +15,11 @@ function reachNextLevel($experience, $threshold, $reward) {
     if($experience + $reward >= $threshold) {
         return true;
     } else {
-        return false;
+        $more = 1;
+        while ($experience + $reward < $threshold) {
+            $experience += $reward;
+            $more++;
+        }
+        return $more;
     }
 }

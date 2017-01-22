@@ -9,9 +9,10 @@
  * @return int will return the sum of the digits from the input
  */
 
-function addTwoDigits($n) {
+function addDigits($n) {
     $sum = 0;
-    if ( 10 <= $n && 100 >= $n ) {
+    if ( 10 <= $n && $n <= 999999999 ) {
+        # originally this was only to calculate for 2 digit numbers, I have increased this
         $digits = str_split($n);
         foreach ( $digits as $digit ) {
             $sum += $digit;

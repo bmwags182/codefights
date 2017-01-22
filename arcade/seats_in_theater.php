@@ -18,8 +18,7 @@
 
 function seatsInTheater($nCols, $nRows, $col, $row) {
     $disturbed_cols = $nCols - $col + 1;
-    $disturbed_rows = $nRows - $row;
-    // add a +1 above when I start caring about people in my row
+    $disturbed_rows = $nRows - $row + 1;
     
     $disturbed_people = $disturbed_cols * $disturbed_rows;
     

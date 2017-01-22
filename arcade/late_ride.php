@@ -16,7 +16,12 @@ function lateRide($n) {
     // no reason for this block below other than to see what time it is
     // I still don't understand why I am solving for the sum of the digits
     // on the clock, I'm more concerned what time it is
-    $minStr = strval($minutes);
+    
+    if ($minutes < 10) {
+        $minStr = "0" . strval($minutes);
+    } else {
+        $minStr = strval($minutes);
+    }
     $hrsStr = strval($hours);
     $time = $hrsStr . ":" . $minStr;
     echo $time;
