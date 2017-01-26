@@ -1,6 +1,6 @@
 <?php
 // Built for codefights
-// Chalenge
+// Challenge
 
 /*
     In order to stop the Mad Coder evil genius you need to decipher the encrypted message he sent to his minions. The message contains several numbers that, when typed into a supercomputer, will launch a missile into the sky blocking out the sun, and making all the people on Earth grumpy and sad.
